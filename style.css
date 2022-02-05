@@ -1,0 +1,37 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffbb6c;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #222;
+}
+
+.Chocolate{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #5c2200;
+  border: 2px solid #421800;
+  border-radius: 5px;
+}
+
+.piece{
+  border: 2px solid #622717;
+  background-color: #c48976;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.piece i{
+  font-size: 50px;
+  color: #642600;
+  opacity: 40%;
+}
